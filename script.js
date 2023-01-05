@@ -59,3 +59,7 @@ function stopSliding(slider){
     document.getElementById("btn").setAttribute("onclick",onclick);
     console.log(`Left : ${left} offset: ${offset} Difference : ${absDifference} SlideWidth : ${slideWidth}`);
 }
+var loader = document.getElementById("preloader");
+window.addEventListener("load",function(){
+    loader.style.display = "none";
+})
