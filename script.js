@@ -15,7 +15,7 @@ theme.onclick = function(){
     }
 }
 
-var slideWidth = 50;
+var slideWidth = 300;
 function stopSliding(slider){
     var sliderCurrent = document.getElementById("slider".concat(slider));
     var sliderAbove = document.getElementById("slider".concat(slider+1));
